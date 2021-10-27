@@ -13,7 +13,7 @@ function isFull(){
       return false;
   }
 }
-
+}
 
   function addItem(item){
     basket.push(item);
@@ -34,7 +34,7 @@ function listItems() {
   }
 }
 
-listitem()
+listItems();
 
 console.log('basket is:', basket);
 console.log(addItem('baseball'));
